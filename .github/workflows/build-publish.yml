@@ -28,7 +28,7 @@ jobs:
                 JF_URL: https://${{ secrets.JF_URL }}/
                 JF_PROJECT: 'vigneshs'
               with:
-                  oidc-provider-name: vigneshs-github
+                  oidc-provider-name: test
                   oidc-audience: jfrog-github-oidc
 
             - name: Checkout the repository
